@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juan1\\Documents\\LibrosApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|c:\\users\\juan1\\documents\\librosapi\\librosapi\\services\\user\\updateuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|solutionrelative:librosapi\\services\\user\\updateuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|c:\\users\\juan1\\documents\\librosapi\\librosapi\\controllers\\user\\updateusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|solutionrelative:librosapi\\controllers\\user\\updateusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|c:\\users\\juan1\\documents\\librosapi\\librosapi\\services\\user\\createuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|solutionrelative:librosapi\\services\\user\\createuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUserService.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Services\\User\\CreateUserService.cs",
+              "RelativeDocumentMoniker": "LibrosApi\\Services\\User\\CreateUserService.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Services\\User\\CreateUserService.cs",
+              "RelativeToolTip": "LibrosApi\\Services\\User\\CreateUserService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T07:43:53.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateUserService.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Services\\User\\UpdateUserService.cs",
+              "RelativeDocumentMoniker": "LibrosApi\\Services\\User\\UpdateUserService.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Services\\User\\UpdateUserService.cs",
+              "RelativeToolTip": "LibrosApi\\Services\\User\\UpdateUserService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T07:17:14.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateUserController.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Controllers\\User\\UpdateUserController.cs",
+              "RelativeDocumentMoniker": "LibrosApi\\Controllers\\User\\UpdateUserController.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Controllers\\User\\UpdateUserController.cs",
+              "RelativeToolTip": "LibrosApi\\Controllers\\User\\UpdateUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T07:15:26.046Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
