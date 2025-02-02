@@ -1,10 +1,12 @@
 ﻿using LibrosApi.Services.User;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibrosApi.Controllers.User
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class DeleteUserController : ControllerBase
     {
         private readonly DeleteUserService _deleteUserService;

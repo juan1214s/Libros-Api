@@ -1,11 +1,11 @@
 ﻿using Dapper;
-using LibrosApi.Dto;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Data;
 using LibrosApi.Exceptions;
 using System.Threading.Tasks;
 using LibrosApi.Services.Bcrypt;
+using LibrosApi.Dto.UsersDto;
 
 namespace LibrosApi.Services.User
 {

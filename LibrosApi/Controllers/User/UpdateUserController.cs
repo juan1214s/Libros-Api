@@ -1,6 +1,7 @@
-﻿using LibrosApi.Dto;
+﻿using LibrosApi.Dto.UsersDto;
 using LibrosApi.Exceptions;
 using LibrosApi.Services.User;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -8,6 +9,7 @@ namespace LibrosApi.Controllers.User
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UpdateUserController : ControllerBase
     {
         private readonly UpdateUserService _updateUserService;

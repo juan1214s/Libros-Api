@@ -1,6 +1,6 @@
 ﻿using Dapper;
 using LibrosApi.Context;
-using LibrosApi.Dto;
+using LibrosApi.Dto.UsersDto;
 using LibrosApi.Exceptions;
 using Microsoft.Extensions.Logging;
 using System.Data;
@@ -23,7 +23,8 @@ namespace LibrosApi.Services.User
         {
             try
             {
-                var parameters = new { userId = id };  // Cambié 'Id' por 'userId'
+                var parameters = new DynamicParameters();
+                parameters.Add("@userId", id, DbType.Int32, ParameterDirection.Input);
                 string storedProcedure = "GetUserById";  // Nombre del procedimiento almacenado en la base de datos
 
                 // Llamada al procedimiento almacenado

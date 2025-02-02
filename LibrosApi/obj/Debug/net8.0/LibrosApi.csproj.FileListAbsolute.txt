@@ -81,3 +81,5 @@ C:\Users\juan1\Documents\LibrosApi\LibrosApi\obj\Debug\net8.0\refint\LibrosApi.d
 C:\Users\juan1\Documents\LibrosApi\LibrosApi\obj\Debug\net8.0\LibrosApi.pdb
 C:\Users\juan1\Documents\LibrosApi\LibrosApi\obj\Debug\net8.0\LibrosApi.genruntimeconfig.cache
 C:\Users\juan1\Documents\LibrosApi\LibrosApi\obj\Debug\net8.0\ref\LibrosApi.dll
+C:\Users\juan1\Documents\LibrosApi\LibrosApi\obj\Debug\net8.0\LibrosApi.sourcelink.json
+C:\Users\juan1\Documents\LibrosApi\LibrosApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

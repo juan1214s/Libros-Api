@@ -36,4 +36,9 @@
         // Constructor que recibe un mensaje de error y lo pasa al constructor base con el código de estado 404.
         public ResourceNotFoundException(string message) : base(message, 404) { }
     }
+
+    public class ForeignKeyViolationException : AppExceptions
+    {
+        public ForeignKeyViolationException(string message) : base(message) { }
+    }
 }

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace LibrosApi.Dto
+namespace LibrosApi.Dto.UsersDto
 {
     public class GetUserDto
     {

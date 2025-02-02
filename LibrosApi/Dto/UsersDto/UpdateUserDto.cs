@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace LibrosApi.Dto
+namespace LibrosApi.Dto.UsersDto
 {
-    public class CreateUserDto
+    public class UpdateUserDto
     {
         [Required(ErrorMessage = "El nombre es obligatorio.")]
         [StringLength(100, ErrorMessage = "El nombre no puede tener más de 100 caracteres.")]

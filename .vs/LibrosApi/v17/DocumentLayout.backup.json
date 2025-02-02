@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\juan1\\Documents\\LibrosApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|c:\\users\\juan1\\documents\\librosapi\\librosapi\\services\\user\\updateuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|solutionrelative:librosapi\\services\\user\\updateuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|c:\\users\\juan1\\documents\\librosapi\\librosapi\\middleware\\tokenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|solutionrelative:librosapi\\middleware\\tokenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|c:\\users\\juan1\\documents\\librosapi\\librosapi\\controllers\\user\\updateusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|solutionrelative:librosapi\\controllers\\user\\updateusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|c:\\users\\juan1\\documents\\librosapi\\librosapi\\services\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|solutionrelative:librosapi\\services\\token\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|c:\\users\\juan1\\documents\\librosapi\\librosapi\\services\\user\\createuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|solutionrelative:librosapi\\services\\user\\createuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|c:\\users\\juan1\\documents\\librosapi\\librosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|solutionrelative:librosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|c:\\users\\juan1\\documents\\librosapi\\librosapi\\controllers\\athors\\deleteauthorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EEEA13E-0926-4AB0-BBE2-CDA1227A9CB6}|LibrosApi\\LibrosApi.csproj|solutionrelative:librosapi\\controllers\\athors\\deleteauthorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,41 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateUserService.cs",
-              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Services\\User\\CreateUserService.cs",
-              "RelativeDocumentMoniker": "LibrosApi\\Services\\User\\CreateUserService.cs",
-              "ToolTip": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Services\\User\\CreateUserService.cs",
-              "RelativeToolTip": "LibrosApi\\Services\\User\\CreateUserService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wB8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Services\\Token\\TokenService.cs",
+              "RelativeDocumentMoniker": "LibrosApi\\Services\\Token\\TokenService.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Services\\Token\\TokenService.cs",
+              "RelativeToolTip": "LibrosApi\\Services\\Token\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T07:43:53.273Z",
+              "WhenOpened": "2025-02-02T02:39:45.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UpdateUserService.cs",
-              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Services\\User\\UpdateUserService.cs",
-              "RelativeDocumentMoniker": "LibrosApi\\Services\\User\\UpdateUserService.cs",
-              "ToolTip": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Services\\User\\UpdateUserService.cs",
-              "RelativeToolTip": "LibrosApi\\Services\\User\\UpdateUserService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowEUAAAANAAAAAAAAAA==",
+              "Title": "TokenMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Middleware\\TokenMiddleware.cs",
+              "RelativeDocumentMoniker": "LibrosApi\\Middleware\\TokenMiddleware.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Middleware\\TokenMiddleware.cs",
+              "RelativeToolTip": "LibrosApi\\Middleware\\TokenMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T07:17:14.335Z",
+              "WhenOpened": "2025-02-02T02:34:52.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateUserController.cs",
-              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Controllers\\User\\UpdateUserController.cs",
-              "RelativeDocumentMoniker": "LibrosApi\\Controllers\\User\\UpdateUserController.cs",
-              "ToolTip": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Controllers\\User\\UpdateUserController.cs",
-              "RelativeToolTip": "LibrosApi\\Controllers\\User\\UpdateUserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Program.cs",
+              "RelativeDocumentMoniker": "LibrosApi\\Program.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Program.cs",
+              "RelativeToolTip": "LibrosApi\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwEQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T07:15:26.046Z",
+              "WhenOpened": "2025-02-02T02:26:32.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeleteAuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Controllers\\Athors\\DeleteAuthorController.cs",
+              "RelativeDocumentMoniker": "LibrosApi\\Controllers\\Athors\\DeleteAuthorController.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\LibrosApi\\LibrosApi\\Controllers\\Athors\\DeleteAuthorController.cs",
+              "RelativeToolTip": "LibrosApi\\Controllers\\Athors\\DeleteAuthorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T02:24:49.838Z",
               "EditorCaption": ""
             }
           ]

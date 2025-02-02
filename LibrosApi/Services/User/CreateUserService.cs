@@ -2,7 +2,7 @@
 using System.Data;
 using System.Threading.Tasks;
 using Dapper;
-using LibrosApi.Dto;
+using LibrosApi.Dto.UsersDto;
 using LibrosApi.Exceptions;
 using LibrosApi.Services.Bcrypt;
 using Microsoft.Data.SqlClient;
@@ -37,9 +37,10 @@ namespace LibrosApi.Services.User
                 parameters.Add("@password", hashedPassword, DbType.String);
                 parameters.Add("@email", user.Email, DbType.String);
 
-                int affectRows = await _dbConnection.ExecuteAsync("InsertarUsuario", parameters, commandType: CommandType.StoredProcedure);
+                int affectedRows = await _dbConnection.ExecuteScalarAsync<int>("InsertarUsuario", parameters, commandType: CommandType.StoredProcedure);
 
-                if (affectRows > 0)
+
+                if (affectedRows > 0)
                 {
                     _logger.LogInformation("Usuario {Email} creado correctamente.", user.Email);
                     return true;

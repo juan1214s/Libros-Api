@@ -1,6 +1,7 @@
-﻿using LibrosApi.Dto;
+﻿using LibrosApi.Dto.UsersDto;
 using LibrosApi.Exceptions;
 using LibrosApi.Services.User;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -8,6 +9,7 @@ namespace LibrosApi.Controllers.User
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class CreateUserController : ControllerBase
     {
         private readonly CreateUserService _createUserService;

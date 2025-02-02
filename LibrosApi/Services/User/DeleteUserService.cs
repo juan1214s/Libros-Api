@@ -29,7 +29,7 @@ namespace LibrosApi.Services.User
                 var parametros = new DynamicParameters();
                 parametros.Add("@userId", userId, DbType.Int32, ParameterDirection.Input);
 
-                int filasAfectadas = await _dbConnection.ExecuteAsync("EliminarUsuario", parametros, commandType: CommandType.StoredProcedure);
+                int filasAfectadas = await _dbConnection.ExecuteScalarAsync<int>("EliminarUsuario", parametros, commandType: CommandType.StoredProcedure);
 
                 if (filasAfectadas > 0)
                 {

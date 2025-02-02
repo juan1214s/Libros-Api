@@ -1,5 +1,205 @@
 [
   {
+    "ContainingType": "LibrosApi.Controllers.Authors.CreateAuthorsController",
+    "Method": "CreateAuthor",
+    "RelativePath": "api/CreateAuthors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authorDto",
+        "Type": "LibrosApi.Dto.AuthorsDto.CreateAthorsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Book.CreateBookController",
+    "Method": "CreateBook",
+    "RelativePath": "api/CreateBook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookDto",
+        "Type": "LibrosApi.Dto.BookDto.CreateBookDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Booking.CreateBookingController",
+    "Method": "CreateBooking",
+    "RelativePath": "api/CreateBooking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingDto",
+        "Type": "LibrosApi.Dto.BookingDto.CreateBookingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Categories.CreateCategoriesController",
+    "Method": "CreateCategory",
+    "RelativePath": "api/CreateCategories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryDto",
+        "Type": "LibrosApi.Dto.CategoriesDto.CreateCategoriesDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Authors.DeleteAuthorController",
+    "Method": "DeleteAuthor",
+    "RelativePath": "api/DeleteAuthor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Book.DeleteBookController",
+    "Method": "DeleteBook",
+    "RelativePath": "api/DeleteBook/{bookId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Categories.DeleteCategoriesController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/DeleteCategories/{categoryId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Athors.GetAuthorByIdController",
+    "Method": "GetAuthorById",
+    "RelativePath": "api/GetAuthorById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Authors.GetAuthorsController",
+    "Method": "GetAuthors",
+    "RelativePath": "api/GetAuthors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Book.GetBookController",
+    "Method": "GetLibros",
+    "RelativePath": "api/GetBook",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Book.GetBookByIdController",
+    "Method": "GetBookById",
+    "RelativePath": "api/GetBookById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Booking.GetBookingController",
+    "Method": "GetBookings",
+    "RelativePath": "api/GetBooking",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Categories.GetByIdCategoryController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/GetByIdCategory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Categories.GetCategoriesController",
+    "Method": "GetCategories",
+    "RelativePath": "api/GetCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LibrosApi.Controllers.User.GetUserByIdController",
     "Method": "GetUserById",
     "RelativePath": "api/GetUserById/{id}",
@@ -10,6 +210,85 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequestDto",
+        "Type": "LibrosApi.Dto.LoginDto.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Athors.UpdateAuthorController",
+    "Method": "UpdateAuthor",
+    "RelativePath": "api/UpdateAuthor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateAuthorDto",
+        "Type": "LibrosApi.Dto.AuthorsDto.UpdateAuthorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Book.UpdateBookController",
+    "Method": "UpdateBook",
+    "RelativePath": "api/UpdateBook/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateBookDto",
+        "Type": "LibrosApi.Dto.BookDto.UpdateBookDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrosApi.Controllers.Categories.UpdateCategoriesController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/UpdateCategories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateCategoriDto",
+        "Type": "LibrosApi.Dto.CategoriesDto.UpdateCategoriDto",
         "IsRequired": true
       }
     ],
@@ -30,7 +309,7 @@
       },
       {
         "Name": "userDto",
-        "Type": "LibrosApi.Dto.UpdateUserDto",
+        "Type": "LibrosApi.Dto.UsersDto.UpdateUserDto",
         "IsRequired": true
       }
     ],
@@ -46,7 +325,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "LibrosApi.Dto.CreateUserDto",
+        "Type": "LibrosApi.Dto.UsersDto.CreateUserDto",
         "IsRequired": true
       }
     ],
